@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# workspace-finder
+Workspace Finder is a full-stack app for discovering, booking, and managing workspaces. Built with React, Firebase, Node.js, and Stripe, it supports role-based accounts, secure payments, and real-time availability. Users book workspaces, while owners manage listings and reservations.
+>>>>>>> 8335560118c7112f5cb91fb7942f1dc50d16e254
