@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/workspace-finder/static/css/main.608fce89.css",
-    "main.js": "/workspace-finder/static/js/main.8cc9da8b.js",
+    "main.css": "/workspace-finder/static/css/main.17a0fe47.css",
+    "main.js": "/workspace-finder/static/js/main.fefddf50.js",
     "static/js/453.2e01a769.chunk.js": "/workspace-finder/static/js/453.2e01a769.chunk.js",
     "static/media/cozy-gaming-desk-setup-11.png": "/workspace-finder/static/media/cozy-gaming-desk-setup-11.e1c87075f283969568d2.png",
     "static/media/Creative Loft.jpg": "/workspace-finder/static/media/Creative Loft.12475a72c1725eac98fd.jpg",
     "index.html": "/workspace-finder/index.html",
-    "main.608fce89.css.map": "/workspace-finder/static/css/main.608fce89.css.map",
-    "main.8cc9da8b.js.map": "/workspace-finder/static/js/main.8cc9da8b.js.map",
+    "main.17a0fe47.css.map": "/workspace-finder/static/css/main.17a0fe47.css.map",
+    "main.fefddf50.js.map": "/workspace-finder/static/js/main.fefddf50.js.map",
     "453.2e01a769.chunk.js.map": "/workspace-finder/static/js/453.2e01a769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.608fce89.css",
-    "static/js/main.8cc9da8b.js"
+    "static/css/main.17a0fe47.css",
+    "static/js/main.fefddf50.js"
   ]
 }
