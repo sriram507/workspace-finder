@@ -55,7 +55,8 @@ export default function WorkspaceDetails() {
 
       <h1 className="text-2xl font-bold mb-2">{workspace.name}</h1>
       <p className="text-gray-600 mb-2">{workspace.location}</p>
-      <p className="font-bold mb-4">${workspace.price}/hour</p>
+      <p className="font-bold mb-4">₹{workspace.price}/hour</p>
+
 
       <div className="bg-white p-4 border rounded-lg shadow mb-4">
         <h2 className="text-lg font-semibold mb-2">Book this workspace</h2>

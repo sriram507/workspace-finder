@@ -38,7 +38,8 @@ export default function MyBookings() {
             <div key={b.id} className="p-4 border rounded-lg shadow">
               <h2 className="text-lg font-semibold">{b.name}</h2>
               <p className="text-gray-600">{b.location}</p>
-              <p className="font-bold">${b.price}/hour</p>
+              <p className="font-bold">₹{b.price}/hour</p>
+
               <p className="mt-2">📅 {b.date}</p>
               <p>⏰ {b.time}</p>
               <button

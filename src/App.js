@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { useState } from "react";
 import Navbar from "./components/Navbar";
-import SearchBar from "./components/SearchBar";
-import WorkspaceList from "./components/WorkspaceList";
 import WorkspaceDetails from "./components/WorkspaceDetails";
 import MyBookings from "./components/MyBookings";
 import AuthForm from "./components/AuthForm";
 import { useAuth } from "./context/AuthContext";
+import Home from "./pages/Home"; 
 
 function PrivateRoute({ children }) {
   const { user } = useAuth();
@@ -14,21 +12,15 @@ function PrivateRoute({ children }) {
 }
 
 function App() {
-  const [query, setQuery] = useState("");
-
   return (
     <Router>
       <Navbar />
+
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <SearchBar query={query} setQuery={setQuery} />
-              <WorkspaceList query={query} />
-            </>
-          }
-        />
+        {/* 🏠 Home Page */}
+        <Route path="/" element={<Home />} />
+
+        {/* 🔒 Protected Routes */}
         <Route
           path="/workspace/:id"
           element={
@@ -45,6 +37,8 @@ function App() {
             </PrivateRoute>
           }
         />
+
+        {/* 🔐 Auth Pages */}
         <Route path="/login" element={<AuthForm isLogin={true} />} />
         <Route path="/signup" element={<AuthForm isLogin={false} />} />
       </Routes>
