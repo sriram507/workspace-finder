@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/workspace-finder/static/css/main.135e30d9.css",
-    "main.js": "/workspace-finder/static/js/main.8763f8df.js",
+    "main.css": "/workspace-finder/static/css/main.5d09da42.css",
+    "main.js": "/workspace-finder/static/js/main.63d9e7ef.js",
     "static/js/453.2e01a769.chunk.js": "/workspace-finder/static/js/453.2e01a769.chunk.js",
     "static/media/cozy-gaming-desk-setup-11.png": "/workspace-finder/static/media/cozy-gaming-desk-setup-11.e1c87075f283969568d2.png",
     "static/media/Creative Loft.jpg": "/workspace-finder/static/media/Creative Loft.12475a72c1725eac98fd.jpg",
     "static/media/Banner.jpeg": "/workspace-finder/static/media/Banner.b20dbe6df713457a9e33.jpeg",
+    "static/media/aboutus.jpg": "/workspace-finder/static/media/aboutus.d0028090a414dad3661e.jpg",
     "index.html": "/workspace-finder/index.html",
-    "main.135e30d9.css.map": "/workspace-finder/static/css/main.135e30d9.css.map",
-    "main.8763f8df.js.map": "/workspace-finder/static/js/main.8763f8df.js.map",
+    "main.5d09da42.css.map": "/workspace-finder/static/css/main.5d09da42.css.map",
+    "main.63d9e7ef.js.map": "/workspace-finder/static/js/main.63d9e7ef.js.map",
     "453.2e01a769.chunk.js.map": "/workspace-finder/static/js/453.2e01a769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.135e30d9.css",
-    "static/js/main.8763f8df.js"
+    "static/css/main.5d09da42.css",
+    "static/js/main.63d9e7ef.js"
   ]
 }
