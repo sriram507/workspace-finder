@@ -8,10 +8,8 @@ export default function Footer() {
   // 🧭 Show button only after scrolling 300px
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) setShowTopButton(true);
-      else setShowTopButton(false);
+      setShowTopButton(window.scrollY > 300);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -30,8 +28,7 @@ export default function Footer() {
             Workspace<span className="text-blue-500">Finder</span>
           </h2>
           <p className="text-sm leading-relaxed">
-            Find and book the best coworking spaces and offices in Hyderabad —
-            fast, easy, and reliable.
+            Find and book the best coworking spaces and offices in Hyderabad — fast, easy, and reliable.
           </p>
         </div>
 
@@ -45,18 +42,18 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link to="/about" className="hover:text-blue-400 transition">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="hover:text-blue-400 transition">
+                Contact Us
+              </Link>
+            </li>
+            <li>
               <Link to="/my-bookings" className="hover:text-blue-400 transition">
                 My Bookings
-              </Link>
-            </li>
-            <li>
-              <Link to="/login" className="hover:text-blue-400 transition">
-                Login
-              </Link>
-            </li>
-            <li>
-              <Link to="/signup" className="hover:text-blue-400 transition">
-                Signup
               </Link>
             </li>
           </ul>
@@ -76,19 +73,16 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-blue-400 transition">
+            <a href="#" className="hover:text-blue-400 transition" aria-label="Facebook">
               <Facebook size={22} />
             </a>
-            <a href="#" className="hover:text-blue-400 transition">
+            <a href="#" className="hover:text-blue-400 transition" aria-label="Twitter">
               <Twitter size={22} />
             </a>
-            <a href="#" className="hover:text-blue-400 transition">
+            <a href="#" className="hover:text-blue-400 transition" aria-label="Instagram">
               <Instagram size={22} />
             </a>
-            <a
-              href="mailto:support@workspacefinder.in"
-              className="hover:text-blue-400 transition"
-            >
+            <a href="mailto:support@workspacefinder.in" className="hover:text-blue-400 transition" aria-label="Email">
               <Mail size={22} />
             </a>
           </div>
